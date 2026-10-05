@@ -40,7 +40,7 @@ pipeline {
 
             steps {
                 sh '''
-                    docker build -t myjenkinsapp
+                    docker build -t myjenkinsapp .
                 '''
             }
         }
